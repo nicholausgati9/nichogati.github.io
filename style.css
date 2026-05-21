@@ -585,6 +585,20 @@ body.light-mode .contact-form textarea {
   gap: 20px;
 }
 
+.footer-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .footer-inner p {
   margin-bottom: 0;
 }
